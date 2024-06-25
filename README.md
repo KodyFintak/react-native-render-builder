@@ -1,4 +1,4 @@
-# react-render-builder
+# react-native-render-builder
 
 Encapsulate Context/Data Providers when testing Components and Hooks in React-Native
 
