@@ -11,13 +11,13 @@ interface for easily reusing setup of your JSX tree.
 ### yarn
 
 ```shell
-yarn add --dev react-render-builder
+yarn add --dev react-native-render-builder
 ```
 
 ### npm
 
 ```shell
-npm install --save-dev react-render-builder
+npm install --save-dev react-native-render-builder
 ```
 
 This library has a peerDependencies listing
@@ -30,7 +30,7 @@ First create your RenderBuilder with any builder methods for adding in component
 
 ```tsx
 import { CounterProvider } from './CounterContext';
-import { ReactRenderBuilder } from 'react-render-builder';
+import { ReactRenderBuilder } from 'react-native-render-builder';
 
 export class RenderBuilder extends ReactRenderBuilder {
     counter(initialValue: number): this {

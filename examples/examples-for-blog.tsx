@@ -1,7 +1,7 @@
 import { render, RenderAPI } from '@testing-library/react-native';
 import { it } from '@jest/globals';
 import React, { PropsWithChildren } from 'react';
-import { ReactRenderBuilder } from 'react-render-builder';
+import { ReactRenderBuilder } from 'react-native-render-builder';
 
 it('renders hello', () => {
     const renderApi = render(<Hello name={'Kody'} />);
